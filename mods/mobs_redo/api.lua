@@ -42,7 +42,7 @@ end
 -- Load settings
 local damage_enabled = minetest.setting_getbool("enable_damage")
 local peaceful_only = minetest.setting_getbool("only_peaceful_mobs")
-local disable_blood = minetest.setting_getbool("mobs_disable_blood")
+local disable_blood = true
 local creative = minetest.setting_getbool("creative_mode")
 local spawn_protected = tonumber(minetest.setting_get("mobs_spawn_protected")) or 1
 local remove_far = minetest.setting_getbool("remove_far_mobs")
