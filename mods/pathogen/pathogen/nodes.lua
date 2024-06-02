@@ -37,7 +37,7 @@ else
     diggable = false,
     buildable_to = true,
     air_equivalent = true,
-    textures = {"pathogen_fence.png", "pathogen_fence.png", 'xpanes_space.png'},
+    textures = {"pathogen_fence.png", "pathogen_fence.png", 'blank.png'},
     inventory_image = "pathogen_fence.png",
     wield_image = "pathogen_fence.png",
     groups = {snappy=2, cracky=3, oddly_breakable_by_hand=3, pane=1},

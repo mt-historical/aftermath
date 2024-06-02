@@ -67,3 +67,6 @@
 [submodule "mods/scifi_nodes"]
 	path = mods/scifi_nodes
 	url = https://github.com/D00Med/scifi_nodes.git
+[submodule "mods/mtg/xpanes"]
+	path = mods/mtg/xpanes
+	url = https://github.com/minetest-game/xpanes.git
