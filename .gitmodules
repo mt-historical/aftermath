@@ -52,3 +52,9 @@
 [submodule "mods/mtg/wool"]
 	path = mods/mtg/wool
 	url = https://github.com/minetest-game/wool.git
+[submodule "mods/mtg/screwdriver"]
+	path = mods/mtg/screwdriver
+	url = https://github.com/minetest-game/screwdriver.git
+[submodule "mods/mtg/stairs"]
+	path = mods/mtg/stairs
+	url = https://github.com/minetest-game/stairs.git
