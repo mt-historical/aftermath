@@ -565,13 +565,13 @@ handle_schematics.place_buildings = function(village, minp, maxp, data, param2_d
 	cid.c_chest            = handle_schematics.get_content_id_replaced( 'default:chest',          replacements );
 	cid.c_chest_locked     = handle_schematics.get_content_id_replaced( 'default:chest_locked',   replacements );
 	cid.c_chest_shelf      = handle_schematics.get_content_id_replaced( 'cottages:shelf',         replacements );
-	cid.c_chest_ash        = handle_schematics.get_content_id_replaced( 'trees:chest_ash',        replacements );
-	cid.c_chest_aspen      = handle_schematics.get_content_id_replaced( 'trees:chest_aspen',      replacements );
-	cid.c_chest_birch      = handle_schematics.get_content_id_replaced( 'trees:chest_birch',      replacements );
-	cid.c_chest_maple      = handle_schematics.get_content_id_replaced( 'trees:chest_maple',      replacements );
-	cid.c_chest_chestnut   = handle_schematics.get_content_id_replaced( 'trees:chest_chestnut',   replacements );
-	cid.c_chest_pine       = handle_schematics.get_content_id_replaced( 'trees:chest_pine',       replacements );
-	cid.c_chest_spruce     = handle_schematics.get_content_id_replaced( 'trees:chest_spruce',     replacements );
+	cid.c_chest_ash        = handle_schematics.get_content_id_replaced( 'air',        replacements );
+	cid.c_chest_aspen      = handle_schematics.get_content_id_replaced( 'air',      replacements );
+	cid.c_chest_birch      = handle_schematics.get_content_id_replaced( 'air',      replacements );
+	cid.c_chest_maple      = handle_schematics.get_content_id_replaced( 'air',      replacements );
+	cid.c_chest_chestnut   = handle_schematics.get_content_id_replaced( 'air',   replacements );
+	cid.c_chest_pine       = handle_schematics.get_content_id_replaced( 'air',       replacements );
+	cid.c_chest_spruce     = handle_schematics.get_content_id_replaced( 'air',     replacements );
 	cid.c_sign             = handle_schematics.get_content_id_replaced( 'default:sign_wall',      replacements );
 --print('REPLACEMENTS: '..minetest.serialize( replacements.table )..' CHEST: '..tostring( minetest.get_name_from_content_id( cid.c_chest ))); -- TODO
 
@@ -668,13 +668,13 @@ handle_schematics.place_building_using_voxelmanip = function( pos, binfo, replac
 	cid.c_chest            = handle_schematics.get_content_id_replaced( 'default:chest',          replacements );
 	cid.c_chest_locked     = handle_schematics.get_content_id_replaced( 'default:chest_locked',   replacements );
 	cid.c_chest_shelf      = handle_schematics.get_content_id_replaced( 'cottages:shelf',         replacements );
-	cid.c_chest_ash        = handle_schematics.get_content_id_replaced( 'trees:chest_ash',        replacements );
-	cid.c_chest_aspen      = handle_schematics.get_content_id_replaced( 'trees:chest_aspen',      replacements );
-	cid.c_chest_birch      = handle_schematics.get_content_id_replaced( 'trees:chest_birch',      replacements );
-	cid.c_chest_maple      = handle_schematics.get_content_id_replaced( 'trees:chest_maple',      replacements );
-	cid.c_chest_chestnut   = handle_schematics.get_content_id_replaced( 'trees:chest_chestnut',   replacements );
-	cid.c_chest_pine       = handle_schematics.get_content_id_replaced( 'trees:chest_pine',       replacements );
-	cid.c_chest_spruce     = handle_schematics.get_content_id_replaced( 'trees:chest_spruce',     replacements );
+	cid.c_chest_ash        = handle_schematics.get_content_id_replaced( 'air',        replacements );
+	cid.c_chest_aspen      = handle_schematics.get_content_id_replaced( 'air',      replacements );
+	cid.c_chest_birch      = handle_schematics.get_content_id_replaced( 'air',      replacements );
+	cid.c_chest_maple      = handle_schematics.get_content_id_replaced( 'air',      replacements );
+	cid.c_chest_chestnut   = handle_schematics.get_content_id_replaced( 'air',   replacements );
+	cid.c_chest_pine       = handle_schematics.get_content_id_replaced( 'air',       replacements );
+	cid.c_chest_spruce     = handle_schematics.get_content_id_replaced( 'air',     replacements );
 	cid.c_sign             = handle_schematics.get_content_id_replaced( 'default:sign_wall',      replacements );
 
 	-- for roads

@@ -902,7 +902,7 @@ mg_villages.place_villages_via_voxelmanip = function( villages, minp, maxp, vm, 
 	cid.c_stone_with_coal = minetest.get_content_id( 'default:stone_with_coal');
 	cid.c_sandstone       = minetest.get_content_id( 'default:sandstone');
 
-	cid.c_msnow_1  = minetest.get_content_id( 'moresnow:snow_top' );
+	--[[ cid.c_msnow_1  = minetest.get_content_id( 'moresnow:snow_top' );
 	cid.c_msnow_2  = minetest.get_content_id( 'moresnow:snow_fence_top');
 	cid.c_msnow_3  = minetest.get_content_id( 'moresnow:snow_stair_top');
 	cid.c_msnow_4  = minetest.get_content_id( 'moresnow:snow_slab_top');
@@ -913,7 +913,20 @@ mg_villages.place_villages_via_voxelmanip = function( villages, minp, maxp, vm, 
 	cid.c_msnow_9  = minetest.get_content_id( 'moresnow:snow_ramp_top');
 	cid.c_msnow_10 = minetest.get_content_id( 'moresnow:snow_ramp_outer_top');
 	cid.c_msnow_11 = minetest.get_content_id( 'moresnow:snow_ramp_inner_top');
-	cid.c_msnow_soil=minetest.get_content_id( 'moresnow:snow_soil' );
+	cid.c_msnow_soil=minetest.get_content_id( 'moresnow:snow_soil' ); ]]
+
+	cid.c_msnow_1  = minetest.get_content_id( 'default:snow' );
+	cid.c_msnow_2  = minetest.get_content_id( 'default:snow');
+	cid.c_msnow_3  = minetest.get_content_id( 'default:snow');
+	cid.c_msnow_4  = minetest.get_content_id( 'default:snow');
+	cid.c_msnow_5  = minetest.get_content_id( 'default:snow');
+	cid.c_msnow_6  = minetest.get_content_id( 'default:snow');
+	cid.c_msnow_7  = minetest.get_content_id( 'default:snow');
+	cid.c_msnow_8  = minetest.get_content_id( 'default:snow');
+	cid.c_msnow_9  = minetest.get_content_id( 'default:snow');
+	cid.c_msnow_10 = minetest.get_content_id( 'default:snow');
+	cid.c_msnow_11 = minetest.get_content_id( 'default:snow');
+	cid.c_msnow_soil=minetest.get_content_id( 'default:snow' );
 
 	cid.c_ice      = minetest.get_content_id( 'default:ice' );
 

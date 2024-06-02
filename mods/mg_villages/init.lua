@@ -1,3 +1,4 @@
+minetest.register_alias("mg:ignore", "ignore")
 
 -- reserve namespace for the villages
 mg_villages = {}

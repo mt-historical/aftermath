@@ -61,7 +61,13 @@ handle_schematics.add_mirrored_node_type = function( name, mirrored_name )
 end
 
 local door_materials = {'wood','steel','glass','obsidian_glass'};
-for _,material in ipairs( door_materials ) do 
+for _,material in ipairs( door_materials ) do
+
+	minetest.register_alias( 'doors:door_'..material..'_b_1', 'air' )
+	minetest.register_alias( 'doors:door_'..material..'_t_1', 'air' )
+	minetest.register_alias( 'doors:door_'..material..'_b_2', 'air' )
+	minetest.register_alias( 'doors:door_'..material..'_t_2', 'air' )
+
 	handle_schematics.add_mirrored_node_type( 'doors:door_'..material..'_b_1', 'doors:door_'..material..'_b_2' );
 	handle_schematics.add_mirrored_node_type( 'doors:door_'..material..'_t_1', 'doors:door_'..material..'_t_2' );
 	handle_schematics.add_mirrored_node_type( 'doors:door_'..material..'_b_2', 'doors:door_'..material..'_b_1' );
