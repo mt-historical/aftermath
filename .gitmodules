@@ -22,3 +22,18 @@
 [submodule "mods/bakedclay"]
 	path = mods/bakedclay
 	url = https://codeberg.org/tenplus1/bakedclay.git
+[submodule "mods/mtg/beds"]
+	path = mods/mtg/beds
+	url = https://github.com/minetest-game/beds.git
+[submodule "mods/mtg/boats"]
+	path = mods/mtg/boats
+	url = https://github.com/minetest-game/boats.git
+[submodule "mods/mtg/bones"]
+	path = mods/mtg/bones
+	url = https://github.com/minetest-game/bones.git
+[submodule "mods/mtg/carts"]
+	path = mods/mtg/carts
+	url = https://github.com/minetest-game/carts.git
+[submodule "mods/mtg/spawn"]
+	path = mods/mtg/spawn
+	url = https://github.com/minetest-game/spawn.git
