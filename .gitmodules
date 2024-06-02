@@ -64,3 +64,6 @@
 [submodule "mods/mtg/vessels"]
 	path = mods/mtg/vessels
 	url = https://github.com/minetest-game/vessels.git
+[submodule "mods/scifi_nodes"]
+	path = mods/scifi_nodes
+	url = https://github.com/D00Med/scifi_nodes.git

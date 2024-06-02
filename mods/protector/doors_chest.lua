@@ -334,8 +334,8 @@ register_door(name, {
 		snappy = 1, bendy = 2, cracky = 1,
 		level = 2, unbreakable = 1, -- door = 1
 	},
-	tiles_bottom = {"scifi_nodes_door1a_bottom.png^protector_logo.png", "scifi_nodes_mesh.png"},
-	tiles_top = {"scifi_nodes_door1a_top.png", "scifi_nodes_mesh.png"},
+	tiles_bottom = {"scifi_nodes_door_Doom_bottom.png^protector_logo.png", "scifi_nodes_mesh.png"},
+	tiles_top = {"scifi_nodes_door_Doom_top.png", "scifi_nodes_mesh.png"},
 	sounds = default.node_sound_metal_defaults(),
 	sunlight = false,
 })
