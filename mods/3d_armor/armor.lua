@@ -348,8 +348,8 @@ armor.update_inventory = function(self, player)
 			if page:find("detached:"..name.."_armor") then
 				inventory_plus.set_inventory_formspec(player, formspec)
 			end
-		else
-			player:set_inventory_formspec(formspec)
+		--else
+			--player:set_inventory_formspec(formspec)
 		end
 	end
 end

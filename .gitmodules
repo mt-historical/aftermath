@@ -1,3 +1,15 @@
 [submodule "mods/mtg/tnt"]
 	path = mods/mtg/tnt
 	url = https://github.com/minetest-game/tnt.git
+[submodule "mods/mtg/sfinv"]
+	path = mods/mtg/sfinv
+	url = https://github.com/minetest-game/sfinv.git
+[submodule "mods/mtg/creative"]
+	path = mods/mtg/creative
+	url = https://github.com/minetest-game/creative.git
+[submodule "mods/mtg/mtg_craftguide"]
+	path = mods/mtg/mtg_craftguide
+	url = https://github.com/minetest-game/mtg_craftguide.git
+[submodule "mods/simple_skins"]
+	path = mods/simple_skins
+	url = https://codeberg.org/tenplus1/simple_skins.git
