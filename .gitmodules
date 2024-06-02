@@ -13,3 +13,9 @@
 [submodule "mods/simple_skins"]
 	path = mods/simple_skins
 	url = https://codeberg.org/tenplus1/simple_skins.git
+[submodule "mods/3d_armor"]
+	path = mods/3d_armor
+	url = https://github.com/minetest-mods/3d_armor.git
+[submodule "mods/mtg/player_api"]
+	path = mods/mtg/player_api
+	url = https://github.com/minetest-game/player_api.git
