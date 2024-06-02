@@ -61,3 +61,6 @@
 [submodule "mods/mobs_redo"]
 	path = mods/mobs_redo
 	url = https://codeberg.org/tenplus1/mobs_redo.git
+[submodule "mods/mtg/vessels"]
+	path = mods/mtg/vessels
+	url = https://github.com/minetest-game/vessels.git
