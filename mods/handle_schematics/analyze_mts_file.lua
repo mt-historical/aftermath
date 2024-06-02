@@ -132,6 +132,11 @@ handle_schematics.analyze_mts_file = function( path )
 	local is_air = 0;
 	-- translate nodenames to ids
 	for i,v in ipairs( nodenames ) do
+		if not minetest.registered_nodes[v] then
+			--just work around the problem
+			minetest.register_alias(v, "air")
+		end
+
 		ids[ i ] = minetest.get_content_id( v );
 		needs_on_constr[ i ] = false;
 		if( minetest.registered_nodes[ v ] and minetest.registered_nodes[ v ].on_construct ) then

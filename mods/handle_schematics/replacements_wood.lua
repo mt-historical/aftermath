@@ -230,5 +230,5 @@ replacements_group['wood'].construct_wood_type_list = function()
 end
 
 -- actually construct the data structure once
-replacements_group['wood'].construct_wood_type_list();
+--replacements_group['wood'].construct_wood_type_list();
 

@@ -168,4 +168,4 @@ replacements_group['farming'].construct_farming_type_list = function()
 end
 
 -- create the list of known farming fruits
-replacements_group['farming'].construct_farming_type_list();
+--replacements_group['farming'].construct_farming_type_list();

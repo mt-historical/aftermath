@@ -906,6 +906,11 @@ mg_villages.get_replacement_table = function( housetype, pr, replacements )
 	for i,v in ipairs( replacements ) do
 		if( v and #v == 2 ) then
 			rtable[ v[1] ] = v[2];
+
+			if not minetest.registered_nodes[v[1]] then
+				minetest.register_alias(v[1], "air")
+			end
+
 			ids[ minetest.get_content_id( v[1] )] = minetest.get_content_id( v[2] );
 		end
 	end

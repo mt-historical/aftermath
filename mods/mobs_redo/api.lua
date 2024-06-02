@@ -1130,7 +1130,7 @@ local follow_flop = function(self)
 
 		for n = 1, #players do
 
-			if get_distance(players[n]:getpos(), s) < self.view_range
+			if s and get_distance(players[n]:getpos(), s) < self.view_range
 			and not mobs.invis[ players[n]:get_player_name() ] then
 
 				self.following = players[n]

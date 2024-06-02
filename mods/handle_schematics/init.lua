@@ -3,6 +3,25 @@ handle_schematics = {}
 
 handle_schematics.modpath = minetest.get_modpath( "handle_schematics");
 
+--crap to get this working
+minetest.register_alias("stairs:stair_stonebrickupside_down", "air")
+minetest.register_alias("stairs:slab_stonebrickupside_down", "air")
+minetest.register_alias("stairs:stair_woodupside_down", "air")
+minetest.register_alias("stairs:slab_woodupside_down", "air")
+minetest.register_alias("cottages:glass_pane_side", "air")
+minetest.register_alias("cottages:table", "air")
+minetest.register_alias("cottages:bench", "air")
+minetest.register_alias("cottages:bed_head", "air")
+minetest.register_alias("stairs:stair_clay", "air")
+minetest.register_alias("ethereal:mushroom_pore", "air")
+minetest.register_alias("ethereal:mushroom_trunk", "air")
+minetest.register_alias("ethereal:mushroom", "air")
+minetest.register_alias("ethereal:bamboo", "air")
+minetest.register_alias("trees:chest_ash", "air")
+minetest.register_alias("trees:chest_aspen", "air")
+minetest.register_alias("trees:chest_birch", "air")
+minetest.register_alias("cottages:roof_connector_slate", "air")
+
 -- adds worldedit_file.* namespace
 -- deserialize worldedit savefiles
 dofile(handle_schematics.modpath.."/worldedit_file.lua")
