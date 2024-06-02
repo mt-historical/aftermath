@@ -19,3 +19,6 @@
 [submodule "mods/mtg/player_api"]
 	path = mods/mtg/player_api
 	url = https://github.com/minetest-game/player_api.git
+[submodule "mods/bakedclay"]
+	path = mods/bakedclay
+	url = https://codeberg.org/tenplus1/bakedclay.git
