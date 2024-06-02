@@ -46,3 +46,9 @@
 [submodule "mods/mtg/flowers"]
 	path = mods/mtg/flowers
 	url = https://github.com/minetest-game/flowers.git
+[submodule "mods/mtg/walls"]
+	path = mods/mtg/walls
+	url = https://github.com/minetest-game/walls.git
+[submodule "mods/mtg/wool"]
+	path = mods/mtg/wool
+	url = https://github.com/minetest-game/wool.git
