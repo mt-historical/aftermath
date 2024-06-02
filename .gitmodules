@@ -1,0 +1,3 @@
+[submodule "mods/mtg/tnt"]
+	path = mods/mtg/tnt
+	url = https://github.com/minetest-game/tnt.git
