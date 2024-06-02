@@ -37,3 +37,12 @@
 [submodule "mods/mtg/spawn"]
 	path = mods/mtg/spawn
 	url = https://github.com/minetest-game/spawn.git
+[submodule "mods/mtg/dye"]
+	path = mods/mtg/dye
+	url = https://github.com/minetest-game/dye.git
+[submodule "mods/mtg/fire"]
+	path = mods/mtg/fire
+	url = https://github.com/minetest-game/fire.git
+[submodule "mods/mtg/flowers"]
+	path = mods/mtg/flowers
+	url = https://github.com/minetest-game/flowers.git
