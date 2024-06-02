@@ -1995,7 +1995,7 @@ local mob_punch = function(self, hitter, tflp, tool_capabilities, dir)
 	if self.blood_amount > 0
 	and not disable_blood then
 
-		local pos = self.object:getpos()
+		local pos = self.object:get_pos()
 
 		pos.y = pos.y + (-self.collisionbox[2] + self.collisionbox[5]) * .5
 
